@@ -7,7 +7,7 @@
 }
 
 /*This makes the logo itself as an image and makes it the full size of the logo area. */
-.Logo > img {
+.Logo>img {
   width: 100%;
 }
 
@@ -23,17 +23,17 @@
 }
 
 /*This styles h1s to make them closer to the text below them. */
-.Body_Styling > h1 {
+.Body_Styling>h1 {
   margin-bottom: -1.5%;
 }
 
 /*This styles h2s to make them a different text size. */
-.Body_Styling > h2 {
+.Body_Styling>h2 {
   font-size: 130%;
 }
 
 /*This gives paragraphs an indent, unless explicitly told otherwise in the HTML in a few cases. */
-.Body_Styling > p {
+.Body_Styling>p {
   text-indent: 5%;
 }
 
@@ -44,3 +44,45 @@
   font-style: italic;
   color: grey;
 }
+
+
+
+
+
+/*Everything in between this comment and the next comment that says "HEAT PUMPS WILL SAVE THE WORLD ONE DAY" is for the navbar, copied from w3schools' website. */
+.navbar>ul {
+  list-style-type: none;
+  margin: -8px;
+  padding: 0%;
+  padding-left: 1%;
+  overflow: hidden;
+  background-color: #3d3d3d;
+  font-family: "Comic Sans MS";
+  font-style: normal;
+}
+
+.navbar>ul>li {
+  float: left;
+}
+
+.navbar>ul>li>a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.navbar>ul>li>a:hover {
+  background-color: #111111;
+}
+
+.navbar>ul>li>a.active {
+  background-color: #04AA6D;
+}
+
+.navbar>ul>li>a:hover:not(.active) {
+  background-color: #111111;
+}
+/*HEAT PUMPS WILL SAVE THE WORLD ONE DAY*/
+
