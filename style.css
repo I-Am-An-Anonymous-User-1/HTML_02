@@ -1,13 +1,24 @@
 /*I have organized my style.css document. The first part is for the logo, the second part is for the body, and the third part creates a class I can use to make specific text italic and grey to indicate that it is another person speaking. */
 
-/*This makes the logo area 50% of the webpage and gives it a margin at the top. */
-.Logo {
+/*This makes the logo used as text area 50% of the webpage and gives it a margin at the top. */
+.Logo_Half {
   width: 50%;
   margin-top: 2%;
 }
 
 /*This makes the logo itself as an image and makes it the full size of the logo area. */
-.Logo>img {
+.Logo_Half>img {
+  width: 100%;
+}
+
+/*This makes the logo area 100% of the webpage and gives it a margin at the top. */
+.Logo_Full {
+  width: 100%;
+  margin-top: 2%;
+}
+
+/*This makes the logo itself as an image and makes it the full size of the logo area. */
+.Logo_Full>img {
   width: 100%;
 }
 
@@ -29,7 +40,8 @@
 
 /*This styles h2s to make them a different text size. */
 .Body_Styling>h2 {
-  font-size: 130%;
+  font-size: 140%;
+  margin-bottom: -2%;
 }
 
 /*This gives paragraphs an indent, unless explicitly told otherwise in the HTML in a few cases. */
