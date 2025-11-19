@@ -5,7 +5,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="style.css">
-  <title>The Minecraft Documentary - The Issues of Minecraft</title>
+  <title>Issues of Minecraft - The Minecraft Documentary</title>
 </head>
 
 <body>
@@ -13,12 +13,12 @@
     <ul>
       <li><a href="index.html">Home</a></li>
       <li><a href="History_Of_Minecraft.html">History Of Minecraft</a></li>
-      <li><a class="active" href="Issues_Of_Minecraft.html">Issues of Minecraft</a></li>
+      <li><a class="active" href="Issues_Of_Minecraft.html">Isssues of Minecraft</a></li>
     </ul>
   </div>
 
   <div class="Body_Styling">
-    <h1>The Issues of Minecraft</h1>
+    <h1 style="margin-top: 0px">The Issues of Minecraft</h1>
 
     <p>Before everyone explodes with anger, Minecraft is a great game that we all love, and I am only trying to bring attention to these issues so they can be fixed; I am not hating on Minecraft. And since Minecraft is a 16 year old game, you will probably need some backstory, and therefore, I recommend you read at least the first 2 paragraphs of <a href="History_Of_Minecraft.html">The History of Minecraft</a> page. Now, I'm still writing this part, so most of the headings will have no information under them. Rest assured, I will update this page constantly. So, let's talk about the issues of Minecraft: </p>
 
@@ -29,7 +29,7 @@
       <li>Bedrock Edition Bugs</li>
       <li>The Mob Vote</li>
       <li>Account Migrations</li>
-      <li>Breech of Contract and Laws</li>
+      <li>Breach of Contract and Laws</li>
       <li>Bedrock Edition Recent Bug Fiasco</li>
       <li>And more that I may discuss in the future</li>
     </ol>
@@ -37,6 +37,20 @@
     <p style="text-indent: 0%">Yep, that's a pretty big list of pretty big issues, but nevertheless, it needs to be adressed. Let's go into more detail. </p>
 
     <h1>Java Edition Performance</h1>
+
+    <p>Minecraft Java Edition was, and still is, one of the most horribly optimized games. Servers, like 2Builders2Tools (2B2T, the oldest anarchy server in all of Minecraft), run on some of the best available hardware and still have many measures to prevent lag, yet, they still have issues. There are 2 main reasons for this: </p>
+
+    <p style="text-indent: 0%">1. Minecraft's code is just not very efficient</p>
+
+    <p>I do not know Java, let alone an expert at it, so I cannot understand the code myself. But there are plenty of mods that make the game less laggy, with notable examples such as Sodium, Lithium, Phosphor, Entity Culling, Dynamic FPS, and plenty and plenty more! I cannot believe that we have reached the point where Minecraft is so horribly optimized there's about 5 or 6 very well known mods just for optimization! Mojang, fix your game! </p>
+
+    <p style="text-indent: 0%">2. Minecraft can only take advantage of 1 CPU thread</p>
+
+    <p>Now, I'm no expert in this topic and am writing this based on the information I found from others. Most of the numbers in my explanation are assumptios just for demonstration purposes. I will cite my sources, but I have to re-find them, which I will do later. Anyway, here are the basics: </p>
+    
+    <p style="margin-top: -0.75em;">Minecraft updates a world 20 times a second. This is known as the tick rate. When a tick happens, Minecraft needs to do a bunch of checks and make updates to the world, like is that block you just placed a wet sponge? It is. Are you in the nether? Yes. Since both of those are true, it remembers to evaporate the water from wet sponge, turning it back into a regular sponge, on the next tick. There are a LOT of these checks... tens of thousands. Lets assume it does 50,000 per tick. Now, your computer has a CPU, which has multiple threads. Lets assume it has 8, and lets assume it takes 1 microsecond to do 1 calculation. Minecraft does all of it's calculations in 1 thread, except for some edge cases like when stained glass is placed on top of a beacon, but lets ignore those to keep things simple. Since we assume Minecraft does 50,000 calculations ecery tick, and it takes 1 microsecond to do 1 calculation, it would take about 50 milliseconds to do those calculations. That's seems pretty fast, but for big Minecraft servers, since there are multiple players, those calculations can add up and cause lag. A LOT of it. Lets assue it needs to do 1 million calculations now. That would take the server a full second to update the server once, and remember, it's supposed to update the server 20 times a second, which means, it would be 20 times slower than what it should be. And keep in mind, on anarchy servers, people often build lag machines. This makes hosting Minecraft servers very hard because very VERY expensive equipment is needed, potentially in the tens, hundreds, or, for really big servers like Hypixel, even MILLIONS of US Dollars!! But if Minecraft was coded to take advantage of all threads, servers would invest in equipment that has potentially hundreds of threads, which means those millions of calculations that took an entire second before can now be done in milliseconds, potentially microseconds, eliminating lag (for the most part because there are always edge cases) and allowing us to have servers that can potentially have thousands of players on at the same time. </p>
+
+    <p style="margin-top: -0.75em;">You might be thinking, maybe there's some mod that will save the day and allow Minecraft to take advantage of multiple threads. There are 2 possibilities: no such mod exists because Minecraft has hundreds of thousands of lines of code and many different versions, or that magical mod does exist, but has so many drawbacks that nearly no one uses it. The only people who can fix this is Mojang Studios, buuuuuuut they have shown in many ways that they do not care about the Minecraft community in a lot of these scenarios. </p>
 
     <h1>Bedrock Edition Marketplace</h1>
 
@@ -48,12 +62,11 @@
 
     <h1>Account Migrations</h1>
 
-    <p>As I mentioned in the History of Minecraft page, Notch didn't like all the attention he was getting from Minecraft, so he sold it to Microsoft. Prior to this, if you wanted to play Minecraft, you had to make a Mojang account. But since a multi-trillion dollar greedy company was now in control, they made everyone migrate to a Microsoft account. Now, you know Google? Another multi-trillion dollar greedy company. Before they bought YouTube, you had to make a YouTube account, and they did the same thing as Microsoft: migrating accounts. But unlike Microsoft, if you, somehow, for some absurd reason in the existance of this universe, have one of the legacy YouTube accounts from before May 2009, the same month and year Minecraft itself was invented by Notch, you can still, to this day, migrate to a Google account. How about your Mojang account? Well, all Mojang accounts that were not migrated were deleted forever, resulting in potentially millions of people losing access to the game, and although there was a 90 day period for people who didn't migrate their accounts to claim new accounts, many people only found out years later and got no refund. CalC1 has a great video on this topic, which you can watch <a href="https://youtu.be/rUFDRAEducI?si=Vy_n0IqBk8aWX8s0">here</a>. Also, notice how in the video, he says that you have to agree to both Mojang's EULA and Microsoft's Terms of Service, which a lot of people didn't realize because it was almost certainly a sneaky move by Microsoft to get more legal leverage, and he said that part of the EULA only shows up in the Nintendo URL. Keep that in mind. In fact, keep all of the account migration fiasco in mind. It will come up in the breech of contract and law issue. </p>
+    <p>As I mentioned in the History of Minecraft page, Notch didn't like all the attention he was getting from Minecraft, so he sold it to Microsoft. Prior to this, if you wanted to play Minecraft, you had to make a Mojang account. But since a multi-trillion dollar greedy company was now in control, they made everyone migrate to a Microsoft account. Now, you know Google? Another multi-trillion dollar greedy company. Before they bought YouTube, you had to make a YouTube account, and they did the same thing as Microsoft: migrating accounts. But unlike Microsoft, if you, somehow, for some absurd reason in the existance of this universe, have one of the legacy YouTube accounts from before May 2009, the same month and year Minecraft itself was invented by Notch, you can still, to this day, migrate to a Google account. How about your Mojang account? Well, all Mojang accounts that were not migrated were deleted forever, resulting in potentially millions of people losing access to the game, and although there was a 90 day period for people who didn't migrate their accounts to claim new accounts, many people only found out years later and got no refund. SalC1 has a great video on this topic, which you can watch <a href="https://youtu.be/rUFDRAEducI?si=Vy_n0IqBk8aWX8s0">here</a>. Also, notice how in the video, he says that you have to agree to both Mojang's EULA and Microsoft's Terms of Service, which a lot of people didn't realize because it was almost certainly a sneaky move by Microsoft to get more legal leverage, and he said that part of the EULA only shows up in the Nintendo URL. Keep that in mind. In fact, keep all of the account migration fiasco in mind. It will come up in the breach of contract and law issue. </p>
 
-    <h1>Breech of Contract and Laws</h1>
+    <h1>Breach of Contract and Laws</h1>
 
     <h1>Bedrock Edition Recent Bug Fiasco</h1>
   </div>
-
 
 </html>
