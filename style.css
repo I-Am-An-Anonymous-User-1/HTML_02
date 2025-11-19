@@ -2,8 +2,9 @@
 
 /*This makes the logo used as text area 50% of the webpage and gives it a margin at the top. */
 .Logo_Half {
-  width: 50%;
-  margin-top: 2%;
+  width: 1000px;
+  max-width: 100%;
+  margin-top: 40px;
 }
 
 /*This makes the logo itself as an image and makes it the full size of the logo area. */
@@ -14,7 +15,7 @@
 /*This makes the logo area 100% of the webpage and gives it a margin at the top. */
 .Logo_Full {
   width: 100%;
-  margin-top: 2%;
+  margin-top: 2.5%;
 }
 
 /*This makes the logo itself as an image and makes it the full size of the logo area. */
@@ -26,8 +27,8 @@
 
 /*This styles the body, giving it the correct size, font, and margin. */
 .Body_Styling {
-  margin: 1.25%;
-  font-size: 130%;
+  margin: 25px;
+  font-size: 200%;
 
   font-family: "Comic Sans MS";
   font-style: normal;
@@ -35,13 +36,13 @@
 
 /*This styles h1s to make them closer to the text below them. */
 .Body_Styling>h1 {
-  margin-bottom: -1.5%;
+  margin-bottom: -40px;
 }
 
 /*This styles h2s to make them a different text size. */
 .Body_Styling>h2 {
   font-size: 140%;
-  margin-bottom: -2%;
+  margin-bottom: -30px;
 }
 
 /*This gives paragraphs an indent, unless explicitly told otherwise in the HTML in a few cases. */
@@ -51,7 +52,7 @@
 
 
 
-/*This is the class for styling the text of the second character speaking. */
+/*This is the class for styling the text of the second character speaking in the History of Minecraft page. */
 .P2 {
   font-style: italic;
   color: grey;
@@ -66,7 +67,6 @@
   list-style-type: none;
   margin: -8px;
   padding: 0%;
-  padding-left: 1%;
   overflow: hidden;
   background-color: #3d3d3d;
   font-family: "Comic Sans MS";
@@ -79,9 +79,10 @@
 
 .navbar>ul>li>a {
   display: block;
+  font-size: 35px;
   color: white;
   text-align: center;
-  padding: 14px 16px;
+  padding: 25px 45px;
   text-decoration: none;
 }
 
@@ -98,3 +99,4 @@
 }
 /*HEAT PUMPS WILL SAVE THE WORLD ONE DAY*/
 
+/*Remember the following link for the Issues of Minecraft: https://youtu.be/jmsgJPLbxbc?si=kHlYGZM1V1_TTIMY */
